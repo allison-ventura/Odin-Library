@@ -1,0 +1,124 @@
+
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+
+}
+ 
+nav {
+  width: 100%;
+  height: 80px;
+  background:  #e8eaf6  ;
+  border-bottom: 1px solid transparent;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);
+  position: relative;
+  top: 0;
+  z-index: 100;
+  text-align: center;
+}
+nav h1{
+  color:   #1a237e  ;
+  font-weight: 300;
+  font-size: 50px;
+}
+.form {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #fdfefe;
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);
+    margin-top: 10px;
+    position: absolute;
+    float: left;
+    margin-left: 20px;
+  
+}
+.form {
+    display: block;
+}
+.form h1{
+    text-align: center;
+    margin-top: 10px;
+    color:  #1a237e ;
+    font-weight: 400;
+}
+.form h2{
+  color:  #000000;  
+  font-weight: 300;
+}
+
+.form input{
+  background-color:#f4f6f6;
+  height: 26px;
+  border: 1px solid #d7dbdd;
+}
+#rdyes{
+  font-weight: 300;
+}
+#rdno{
+  font-weight: 300;
+}
+#info{
+   text-align: justify;
+   margin-left: 25px;
+}
+#info h2{
+    font-size: 20px;
+}
+#btn{
+  float: unset;
+}
+#butn{
+  margin: 10px 0 0 0;
+  width: 130px;
+  height: 30px;
+  background: #1a237e;
+  text-align: center;
+  color: #fff;
+  padding: 5px 0;
+  font-weight: 400;
+  font-size: 14px;
+  box-shadow: 0px 8px 32px rgba(26, 35, 126, .46); 
+  border-radius: 5px;
+
+}
+
+#oneOne{
+  float: right;
+  width: 75%;
+}
+
+.iblock{
+  display: inline-block;
+  width: 25%;
+  margin: 15px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #fdfefe;
+  border-bottom: 1px solid transparent;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);
+  color: #000000;
+  font-weight: 300;
+  border-radius: 5px;
+}
+
+.Dbtn{
+  margin: 10px 0 0 0;
+  width: 130px;
+  height: 30px;
+  background: #1a237e;
+  text-align: center;
+  color: #fff;
+  padding: 5px 0;
+  font-weight: 400;
+  font-size: 14px;
+  box-shadow: 0px 8px 32px rgba(26, 35, 126, .30); 
+  border-radius: 5px;
+}

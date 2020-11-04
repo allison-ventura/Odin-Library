@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library-Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav>
+    <div id="header">
+        <h1>Virtual Library</h1>
+    </div>
+    </nav>
+    <div id = "all" class="row">
+
+        <!--columna 1 -->
+        <div id= "formWrapper" class="column">
+            <form id="container" class="form">
+                 <h1>Virtual Library</h1>
+                <br>
+                <div id="info">
+                    <div class="title">
+                        <h2>Book name</h2>
+                        <input type="text" id="title">
+                    </div>
+                    <div class="author">
+                        <h2>Author</h2>
+                        <input type="text" id="author">
+                    </div>
+                    <div class="number">
+                        <h2>Numberof pages</h2>
+                        <input type="number" min="1" id="pages">
+                    </div>
+                    <div class="read">
+                        <h2>Have you read this book?</h2>
+
+                        <form name="f1">
+                            <input type="radio" id="rdyes"  name="read" value="Yes">
+                            <label for="Yes">Yes</label><br>
+                            <input type="radio"   id="rdno" name="read" value="No">
+                            <label for="No">No</label><br>  
+                        </form>
+
+                    </div>
+
+                    <div id="btn">
+                         <input type="button" value="Add new Book" id="butn"onclick="assign(), resetFunc()">
+                    </div>
+
+                </div>
+            </form>
+        </div>
+
+        <!-- columna 2-->
+        <div id="booksWapper" class="column">
+            <div id="oneOne" class="row"></div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
